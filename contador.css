@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: orangered; 
+}
+.quadrado{
+    width: 250px; 
+    height: 250px; 
+    background-color: #ffffff;
+    border: 5px solid #ffffff ;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: center;
+}
+#numero{
+    margin-top: 100px;
+    font-size: 60px;
+}
+.numero{
+    margin-top: 100px;
+    font-size: 60px;
+}
+.botao1 {
+   
+    border-radius: 7px;
+    background-color: #219ebc;
+    margin-top: 4px;
+    height: 50px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.botao2 {
+    height: 50px;
+    border-radius: 7px;
+    background-color: #219ebc;
+    margin-top: 4px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
